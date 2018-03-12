@@ -11,6 +11,12 @@
     </p>
    <h1>Кино.бай</h1>
    <p>Кино на любой вкус</p>
+
+   <form action="forsearch.html" method="post">
+     <p><input type="search" name="sss" placeholder="Поиск">
+     <input type="submit" value="Искать"></p>
+   </form>
+
    <nav>
     <ul style="list-style-type: none;" role="menubar">
         <li role="menuitem"><a href="#"> Афиша</a></li>
@@ -119,6 +125,27 @@
                новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности -
                артефакты невероятной силы, с помощью которых можно менять реальность по собственному желанию.
                <br><small>Читать далее...</small></p>
+               <br>
+        </section>
+
+        <section>
+          <hr>
+          <p><form action="forsearch.html" method="post">
+             <p>Имя Фамилия: <input type="text" name="fullname"/></p>
+             <p>Почта: <input type="email" name="email"/></p>
+             <p><details>
+               <summary>Дополнительная информация</summary>
+                <fieldset title="Укажите ваш пол">
+                 <legend>Пол</legend>
+                  <p><input type="radio" name="sex" value="male"/>Мужской
+                     <input type="radio" name="sex" value="female"/>Женский</p>
+                </fieldset>
+               </details></p>
+             <p><input type="checkbox" name="yes-no" value="yes"/>Буду рекомендовать фильм</p>
+             <p><textarea name="comment" cols="70" rows="7"></textarea>
+             <p><input type="submit" value="Добавить комментарий"/></p>
+          </form></p>
+          <br><hr>
         </section>
       </aside>
 <footer>

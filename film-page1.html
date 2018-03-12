@@ -11,6 +11,12 @@
     </p>
    <h1><a href="https://kelnik17sergey.github.io/index.html">Кино.бай</a></h1>
    <p>Кино на любой вкус</p>
+
+   <form action="forsearch.html" method="post">
+     <p><input type="search" name="sss" placeholder="Поиск">
+     <input type="submit" value="Искать"></p>
+   </form>
+   
    <nav>
      <ul style="list-style-type: none;" role="menubar">
          <li role="menuitem"><a href="#"> Афиша</a></li>
@@ -55,7 +61,7 @@
           <source src="https://files.slack.com/files-pri/T97SC0G0M-F9KGZNEN4/trailer.mp4" type="video/mp4">
         </video>
       </section>
-      <footer>
+      <section>
         <table border="1">
          <caption>Информация</caption>
          <thead>
@@ -75,9 +81,27 @@
           </tr>
          </tbody>
         </table>
-      </footer>
-   </article>
-    <br>
+       </section>
+       <footer>
+         <br><hr>
+         <p><form action="forsearch.html" method="post">
+            <p>Имя Фамилия: <input type="text" name="fullname"/></p>
+            <p>Почта: <input type="email" name="email"/></p>
+            <p><details>
+              <summary>Дополнительная информация</summary>
+               <fieldset title="Укажите ваш пол">
+                <legend>Пол</legend>
+                 <p><input type="radio" name="sex" value="male"/>Мужской
+                    <input type="radio" name="sex" value="female"/>Женский</p>
+               </fieldset>
+              </details></p>
+            <p><input type="checkbox" name="yes-no" value="yes"/>Буду рекомендовать фильм</p>
+            <p><textarea name="comment" cols="70" rows="7"></textarea>
+            <p><input type="submit" value="Добавить комментарий"/></p>
+         </form></p>
+         <hr><br>
+       </footer>
+    </article>
     </main>
 
 <footer>
