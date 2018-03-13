@@ -2,15 +2,21 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title><a href="https://kelnik17sergey.github.io/index.html">Кино.бай</a></title>
+  <title>Кино.бай</title>
 </head>
 <body>
   <Header>
     <p><strong>Внимание!</strong> Этот сайт не использует технологии <abbr title="Cascading Style Sheets">CSS</abbr> и JavaScript, он создан только при помощи
       <abbr title="Hypertext Markup Language">HTML</abbr>
     </p>
-   <h1>Кино.бай</h1>
+    <h1><a href="https://kelnik17sergey.github.io/index.html">Кино.бай</a></h1>
    <p>Кино на любой вкус</p>
+
+   <form action="forsearch.html" method="post">
+     <input type="search" name="sss" placeholder="Поиск">
+     <input type="submit" value="Искать">
+   </form>
+
    <nav>
      <ul style="list-style-type: none;" role="menubar">
          <li role="menuitem"><a href="#"> Афиша</a></li>
@@ -49,7 +55,7 @@
         <h1>Трейлер фильма</h1>
         <iframe width="500" height="300" src="https://www.youtube.com/embed/4BE5u9itrsY"></iframe>
       </section>
-      <footer>
+      <section>
         <table border="1">
          <caption>Информация</caption>
           <thead>
@@ -69,6 +75,25 @@
           </tr>
          </tbody>
         </table>
+      </section>
+      <footer>
+        <br><hr>
+        <form action="forsearch.html" method="post">
+           <label>Имя Фамилия: <input type="text" name="fullname"/></label><br><br>
+           <label>Почта: <input type="email" name="email"/></label><br><br>
+           <details>
+             <summary>Дополнительная информация</summary>
+              <fieldset title="Укажите ваш пол">
+               <legend>Пол</legend>
+                <input type="radio" name="sex" value="male"/>Мужской
+                <input type="radio" name="sex" value="female"/>Женский
+              </fieldset>
+            </details><br>
+           <label><input type="checkbox" name="yes-no" value="yes"/>Буду рекомендовать фильм</label><br><br>
+           <textarea name="comment" cols="70" rows="7"></textarea><br>
+           <input type="submit" value="Добавить комментарий"/>
+        </form>
+        <hr><br>
       </footer>
    </article>
     <br>
