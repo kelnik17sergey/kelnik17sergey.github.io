@@ -1,0 +1,17 @@
+.normal {font-family: tahoma; color: #333;}
+
+#orange1 {color: #ff6600; text-decoration-line: none;}
+
+.orange2 {color: #ff6600; text-shadow: 5px 5px #4a4a4a; font-size: 2rem;}
+
+#size1-3 {font-size: 1.3rem;}
+#size0-9 {font-size: 0.9rem;}
+.size0-8 {font-size: 0.8rem;}
+
+li a:link {color: #0000ff; text-decoration-line: none;}
+
+a:link {color: #0000ff;}
+
+a:visited {color: #0000ff;}
+
+a:hover {color: #f60;}
